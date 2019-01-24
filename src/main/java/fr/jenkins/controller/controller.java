@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @create: 2019-01-24 16:31
  **/
 @RestController
+@RequestMapping("/info")
 public class controller {
     @RequestMapping("/")
     public String affich(){
